@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProjekPameran</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map">AIzaSyA95LDjpSkOclpaVlb4DL5tCRRUeRmBiO8</string>
+    <string name="lokasi">Cari Lokasi Tujuan</string>
+</resources>

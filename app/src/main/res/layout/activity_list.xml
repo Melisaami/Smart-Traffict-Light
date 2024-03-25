@@ -1,0 +1,28 @@
+<!-- list_item_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@drawable/list_item_background"
+    android:backgroundTint="#CCDAFC"
+    android:orientation="vertical">
+
+    <!-- Nama Lokasi -->
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/medium"/>
+
+    <!-- Teks "Detail Lokasi" -->
+    <TextView
+        android:id="@+id/detailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Lokasi"
+        android:textColor="@color/green"
+        android:textSize="@dimen/small"/>
+
+</LinearLayout>
